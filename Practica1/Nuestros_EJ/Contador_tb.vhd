@@ -86,8 +86,6 @@ architecture ContadorTbArc of ContadorTb is
 				wait for ESPERA;
 			end loop;
 			--Comprobamos que el desbordamiento funciona correctamente con Up = '1'
-			wait until rising_edge(Clk);
-			wait for ESPERA;
 			assert Q = x"00" report "Fallo en desbordamiento Up = '1'";
 			wait for CICLO;	--Dejamos un ciclo de reloj para que se vea en la simulación
 			
@@ -111,6 +109,6 @@ architecture ContadorTbArc of ContadorTb is
 				wait for ESPERA;
 			end loop;
 			report "Simulación finalizada. Todo funciona correctamente";
+			wait; --Detenemos el proceso
 		end process;
 end ContadorTbArc;
-		
