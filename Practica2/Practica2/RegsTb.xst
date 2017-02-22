@@ -1,0 +1,5 @@
+set -tmpdir "D:/Practica2/xst/projnav.tmp"
+set -xsthdpdir "D:/Practica2/xst"
+elaborate
+-ifn RegsTb.prj
+-ifmt mixed

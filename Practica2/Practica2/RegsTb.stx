@@ -1,0 +1,46 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Practica2/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to D:/Practica2/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Practica2/Regs.vhd" in Library work.
+Entity <regs> compiled.
+Entity <regs> (Architecture <practica>) compiled.
+Compiling vhdl file "C:/Users/eps/Downloads/RegsTb.vhd" in Library work.
+Entity <RegsTb> compiled.
+ERROR:HDLParsers:1015 - "C:/Users/eps/Downloads/RegsTb.vhd" Line 63. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/eps/Downloads/RegsTb.vhd" Line 65. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/eps/Downloads/RegsTb.vhd" Line 80. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/eps/Downloads/RegsTb.vhd" Line 89. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/eps/Downloads/RegsTb.vhd" Line 122. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/eps/Downloads/RegsTb.vhd" Line 127. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/eps/Downloads/RegsTb.vhd" Line 136. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/eps/Downloads/RegsTb.vhd" Line 151. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/eps/Downloads/RegsTb.vhd" Line 157. Wait for statement unsupported.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> 
+
+Total memory usage is 212856 kilobytes
+
+Number of errors   :    9 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

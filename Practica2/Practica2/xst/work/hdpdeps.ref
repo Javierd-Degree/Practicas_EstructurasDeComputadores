@@ -1,0 +1,16 @@
+V3 12
+FL C:/Users/eps/Downloads/RegsTb.vhd 2016/01/25.18:01:57 P.20131013
+EN work/RegsTb 0 FL C:/Users/eps/Downloads/RegsTb.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/RegsTb/Practica 0 \
+      FL C:/Users/eps/Downloads/RegsTb.vhd EN work/RegsTb 0 CP Regs
+FL D:/Practica2/MicroSuma.vhd 2017/02/22.10:57:25 P.20131013
+EN work/MicroSuma 0 FL D:/Practica2/MicroSuma.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/MicroSuma/Practica 0 \
+      FL D:/Practica2/MicroSuma.vhd EN work/MicroSuma 0 CP regsMap CP aluSumaMap
+FL D:/Practica2/Regs.vhd 2017/02/22.10:20:55 P.20131013
+EN work/Regs 1487755285 FL D:/Practica2/Regs.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/std_logic_arith 1381692177
+AR work/Regs/Practica 1487755286 \
+      FL D:/Practica2/Regs.vhd EN work/Regs 1487755285
