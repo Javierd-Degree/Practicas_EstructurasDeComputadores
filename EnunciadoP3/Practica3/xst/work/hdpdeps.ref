@@ -1,0 +1,8 @@
+V3 3
+FL C:/Users/eps/Documents/practica/Practica3/ALUMIPS.vhd 2017/03/08.11:07:23 P.20131013
+EN work/AluMIPS 1488967645 \
+      FL C:/Users/eps/Documents/practica/Practica3/ALUMIPS.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/AluMIPS/AluArc 1488967646 \
+      FL C:/Users/eps/Documents/practica/Practica3/ALUMIPS.vhd EN work/AluMIPS 1488967645

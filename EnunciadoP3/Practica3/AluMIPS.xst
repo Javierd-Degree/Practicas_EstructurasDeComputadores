@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/eps/Documents/practica/Practica3/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/eps/Documents/practica/Practica3/xst"
+elaborate
+-ifn AluMIPS.prj
+-ifmt mixed
