@@ -1,0 +1,37 @@
+######################################################################
+## Fichero: Desemsamblar.txt
+## Descripción: Programa que realiza operaciones con datos de memoria
+## Fecha última modificación: 2017-03-13
+## Autores: Alberto Sánchez, Ángel de Castro
+## Asignatura: E.C. 1º grado
+## Grupo de Prácticas: 
+## Grupo de Teoría: 
+## Práctica: 4
+## Ejercicio: 3
+######################################################################
+
+
+################# Segmento de código #################
+
+ Address    Code        
+
+0x00000000  0x8c012008  
+0x00000004  0x00011200  
+0x00000008  0x8c03200c  
+0x0000000c  0x00432025  
+0x00000010  0x20050005  
+0x00000014  0x0065302a  
+0x00000018  0x10c00002  
+0x0000001c  0xac042004  
+0x00000020  0x0800000a  
+0x00000024  0xac042000  
+0x00000028  0x0800000a  
+
+################# Segmento de datos #################
+
+ Address    Code        
+
+00002000 000000000
+00002004 000000000
+00002008 00000ceba
+0000200C 000000005
