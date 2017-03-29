@@ -40,10 +40,9 @@ fin: j fin
 	
 .data  						#Comienzo de seccion de datos de usuario
 .align 2 					#Direccion alineada a palabra (multiplo de 2^2=4), no hace falta salvo que metamos a mano en .data una dirección que no sea múltiplo de 4
-A: 2, 2, 4, 6, 5, 6, 7, 8, 9, 10  #Variable A, ocupa una palabra. También se podría poner a: .word 5, pero es redundante porque por defecto ocupa una palabra
-B: -1, -5, 4, 10, 1, -2, 5, 10, -10, 0  #Variable B
-C: .space 40  							#Variable C
+A: 2, 2, 4, 6, 5, 6, 7, 8, 9, 10  		#Array A
+B: -1, -5, 4, 10, 1, -2, 5, 10, -10, 0  #Array B
+C: .space 40  							#Array C, reservamos espacio
 N: 10									#Variable N, número de datos del array
-# Se podría haber puesto a: .word 5, 6, 0 pero entonces no podríamos hacer lw $t1, b. Habría que hacer lw $t1, a($t7) metiendo previamente un 4 en $t7
 
 

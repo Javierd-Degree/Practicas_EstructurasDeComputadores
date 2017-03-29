@@ -31,7 +31,7 @@ calculaAlcance:
 	lw $t1, lut($t0)			#Leemos el dato del angulo del array
 	addi $sp, $sp, -4			#Hacemos push del dato en la pila
 	sw $t1, 0($sp)	 
-	jr $ra
+	jr $ra 						#Regresamos a la función principal
 
 
 

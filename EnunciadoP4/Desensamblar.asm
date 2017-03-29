@@ -18,7 +18,7 @@ main:
 	lw $v1, d 				#Cargamos d en $v1
 	or $a0, $v0, $v1		#Guardamos en $a0 $v0 or $v1
 	addi $a1, $zero, 5		#Guardamos 5 en $a1
-	slt $a2, $v1, $a1 	
+	slt $a2, $v1, $a1 		#Guardamos en $a1 el resultado de SLT($v1, $a0)
 	beq $a2, $zero, rama	#Si el contenido de $a1 es mayor o igual que el de $v1, saltamos a rama
 	sw $a0, b 				#Escribimos el contenido de $a0 en la posicion de b
 	j fin 					#Saltamos incondicionalmente a fin
