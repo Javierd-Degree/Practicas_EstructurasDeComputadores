@@ -1,0 +1,20 @@
+V3 9
+FL D:/Practica5/MemDataPlantilla.vhd 2017/03/29.10:23:17 P.20131013
+EN work/MemDataPlantilla 1490775830 FL D:/Practica5/MemDataPlantilla.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/MemDataPlantilla/Simple 1490775831 \
+      FL D:/Practica5/MemDataPlantilla.vhd EN work/MemDataPlantilla 1490775830
+FL D:/Practica5/MemProgPlantilla.vhd 2017/03/29.10:17:21 P.20131013
+EN work/MemProgPlantilla 1490775815 FL D:/Practica5/MemProgPlantilla.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/MemProgPlantilla/Simple 1490775816 \
+      FL D:/Practica5/MemProgPlantilla.vhd EN work/MemProgPlantilla 1490775815
+FL G:/Practicas_Estructuras/EnunciadoP5/Practica5/UnidadControl.vhd 2017/04/05.10:09:16 P.20131013
+EN work/UnidadControl 1491379786 \
+      FL G:/Practicas_Estructuras/EnunciadoP5/Practica5/UnidadControl.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/UnidadControl/Control 1491379787 \
+      FL G:/Practicas_Estructuras/EnunciadoP5/Practica5/UnidadControl.vhd \
+      EN work/UnidadControl 1491379786

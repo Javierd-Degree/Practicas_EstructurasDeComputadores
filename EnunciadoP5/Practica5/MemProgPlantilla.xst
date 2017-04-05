@@ -1,0 +1,5 @@
+set -tmpdir "D:/Practica5/xst/projnav.tmp"
+set -xsthdpdir "D:/Practica5/xst"
+elaborate
+-ifn MemProgPlantilla.prj
+-ifmt mixed

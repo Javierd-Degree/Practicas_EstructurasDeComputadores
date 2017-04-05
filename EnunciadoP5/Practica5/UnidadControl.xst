@@ -1,0 +1,5 @@
+set -tmpdir "G:/Practicas_Estructuras/EnunciadoP5/Practica5/xst/projnav.tmp"
+set -xsthdpdir "G:/Practicas_Estructuras/EnunciadoP5/Practica5/xst"
+elaborate
+-ifn UnidadControl.prj
+-ifmt mixed
