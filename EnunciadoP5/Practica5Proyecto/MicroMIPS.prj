@@ -1,0 +1,5 @@
+vhdl work "UnidadControl.vhd"
+vhdl work "RegsMIPS.vhd"
+vhdl work "PC.vhd"
+vhdl work "ALUMIPS.vhd"
+vhdl work "MicroMIPS.vhd"

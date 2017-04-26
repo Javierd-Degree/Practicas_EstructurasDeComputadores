@@ -1,0 +1,8 @@
+vhdl work "UnidadControl.vhd"
+vhdl work "RegsMIPS.vhd"
+vhdl work "PC.vhd"
+vhdl work "ALUMIPS.vhd"
+vhdl work "G:/PracticasEstructuras/EnunciadoP5/MemProgMIPS.vhd"
+vhdl work "G:/PracticasEstructuras/EnunciadoP5/MemDataMIPS.vhd"
+vhdl work "MicroMIPS.vhd"
+vhdl work "MicroMIPSTb.vhd"

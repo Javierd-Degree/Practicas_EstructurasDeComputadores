@@ -1,0 +1,15 @@
+EN regsmips NULL D:/Practica5/RegsMIPS.vhd sub00/vhpl03 1493197351
+EN micromipstb NULL D:/Practica5/MicroMIPSTb.vhd sub00/vhpl10 1493197353
+EN micromips NULL D:/Practica5/MicroMIPS.vhd sub00/vhpl00 1493197357
+EN memdatamips NULL G:/PracticasEstructuras/EnunciadoP5/MemDataMIPS.vhd sub00/vhpl13 1493197351
+AR micromips micromipsarc D:/Practica5/MicroMIPS.vhd sub00/vhpl09 1493197358
+EN unidadcontrol NULL D:/Practica5/UnidadControl.vhd sub00/vhpl05 1493197353
+EN alumips NULL D:/Practica5/ALUMIPS.vhd sub00/vhpl01 1493197349
+AR pc pcarc D:/Practica5/PC.vhd sub00/vhpl08 1493197356
+EN pc NULL D:/Practica5/PC.vhd sub00/vhpl07 1493197355
+EN memprogmips NULL G:/PracticasEstructuras/EnunciadoP5/MemProgMIPS.vhd sub00/vhpl11 1493197349
+AR memprogmips simple G:/PracticasEstructuras/EnunciadoP5/MemProgMIPS.vhd sub00/vhpl12 1493197350
+AR regsmips practica D:/Practica5/RegsMIPS.vhd sub00/vhpl04 1493197352
+AR memdatamips simple G:/PracticasEstructuras/EnunciadoP5/MemDataMIPS.vhd sub00/vhpl14 1493197352
+AR unidadcontrol control D:/Practica5/UnidadControl.vhd sub00/vhpl06 1493197354
+AR alumips aluarc D:/Practica5/ALUMIPS.vhd sub00/vhpl02 1493197350

@@ -1,0 +1,509 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/Practica5
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+Z1 !s110 1493198326
+VH[3]eDLL<aGg`dNek>8cC0
+04 11 4 work micromipstb test 1
+=1-c03fd5f05f06-590065f6-1ab-15d0
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z3 OL;O;10.2e;57
+Z4 dD:/Practica5
+T_opt1
+Vj?5J<k1nfVacElZoH1NQG0
+04 8 8 work regsmips practica 1
+=1-c03fd5f05f06-59005d58-355-12b4
+R2
+n@_opt1
+R3
+R4
+!s110 1493196120
+T_opt2
+!s110 1493199644
+V1:FzaWI]lf1CRGZ4Kn_Xn3
+04 19 4 work micromipsvectorestb test 1
+=1-c03fd5f05f06-59006b19-398-1444
+R2
+n@_opt2
+R3
+Ealumips
+Z5 w1489514904
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 @_jbHPR7i^Jh?`2fDCO`m3
+Z7 DPx4 ieee 15 std_logic_arith 0 22 I`lKR?Ob>E^B_e2VdVLiQ0
+Z8 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z9 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+R4
+Z10 8ALUMIPS.vhd
+Z11 FALUMIPS.vhd
+l0
+L19
+Vo_UIXFS1a?FgjE5]9dRh?0
+Z12 OL;C;10.2e;57
+31
+Z13 !s110 1493199639
+Z14 !s108 1493199639.297000
+Z15 !s90 -reportprogress|300|-explicit|-93|ALUMIPS.vhd|
+Z16 !s107 ALUMIPS.vhd|
+Z17 o-explicit -93
+Z18 tExplicit 1
+!s100 lRi?B8O1h`Y1PEg4AKYYd1
+!i10b 1
+!i111 0
+Aaluarc
+R6
+R7
+R8
+R9
+DEx4 work 7 alumips 0 22 o_UIXFS1a?FgjE5]9dRh?0
+l31
+L27
+VV=_QL4H7fTQ2zNUHGd_EM0
+R12
+31
+R13
+R14
+R15
+R16
+R17
+R18
+!s100 @Sg1GGRz@BRI7j<h3>;k?0
+!i10b 1
+!i111 0
+Ememdatamips
+Z19 w1490772868
+R7
+R6
+R8
+R9
+R4
+Z20 8G:/PracticasEstructuras/EnunciadoP5/MemDataMIPS.vhd
+Z21 FG:/PracticasEstructuras/EnunciadoP5/MemDataMIPS.vhd
+l0
+L19
+V5FUl`_@8Y>^m04KHg6NZ`1
+R12
+31
+R1
+Z22 !s108 1493198326.037000
+Z23 !s90 -reportprogress|300|-explicit|-93|G:/PracticasEstructuras/EnunciadoP5/MemDataMIPS.vhd|
+Z24 !s107 G:/PracticasEstructuras/EnunciadoP5/MemDataMIPS.vhd|
+R17
+R18
+!s100 ?NO:L4KP]35UO1gRACa;M0
+!i10b 1
+!i111 0
+Asimple
+R7
+R6
+R8
+R9
+DEx4 work 11 memdatamips 0 22 5FUl`_@8Y>^m04KHg6NZ`1
+l37
+L30
+VEkB0j:7NR=FS8f`]Cmgi43
+R12
+31
+R1
+R22
+R23
+R24
+R17
+R18
+!s100 :1Q2h[Ce4im>;@B5Je4SQ0
+!i10b 1
+!i111 0
+Ememdatavectores
+Z25 w1493199608
+R7
+R6
+R8
+R9
+R4
+Z26 8MemDataVectores.vhd
+Z27 FMemDataVectores.vhd
+l0
+L19
+VAmFo0o[:Fl5<P=oaSE@Ma1
+R12
+31
+R13
+Z28 !s108 1493199639.609000
+Z29 !s90 -reportprogress|300|-explicit|-93|MemDataVectores.vhd|
+Z30 !s107 MemDataVectores.vhd|
+R17
+R18
+!s100 S618@<GmlKDjGOn^o^lT_0
+!i10b 1
+!i111 0
+Asimple
+R7
+R6
+R8
+R9
+DEx4 work 15 memdatavectores 0 22 AmFo0o[:Fl5<P=oaSE@Ma1
+l37
+L30
+VNjUeVV53J8<77G47oYLz>0
+R12
+31
+R13
+R28
+R29
+R30
+R17
+R18
+!s100 nibdRj=?VA@T1oX1dn6n^1
+!i10b 1
+!i111 0
+Ememprogmips
+R19
+R6
+R7
+R8
+R9
+R4
+Z31 8G:/PracticasEstructuras/EnunciadoP5/MemProgMIPS.vhd
+Z32 FG:/PracticasEstructuras/EnunciadoP5/MemProgMIPS.vhd
+l0
+L20
+V6`eJ?ZT9IY]JR6hmBeO2b0
+R12
+31
+Z33 !s110 1493198325
+Z34 !s108 1493198325.959000
+Z35 !s90 -reportprogress|300|-explicit|-93|G:/PracticasEstructuras/EnunciadoP5/MemProgMIPS.vhd|
+Z36 !s107 G:/PracticasEstructuras/EnunciadoP5/MemProgMIPS.vhd|
+R17
+R18
+!s100 N`4;8Hboh:=zB]mVhoefY3
+!i10b 1
+!i111 0
+Asimple
+R6
+R7
+R8
+R9
+DEx4 work 11 memprogmips 0 22 6`eJ?ZT9IY]JR6hmBeO2b0
+l29
+L27
+V3GWDbI_D`Lj<eWKeWfYif2
+R12
+31
+R33
+R34
+R35
+R36
+R17
+R18
+!s100 fdQ5nGR:W1dj79E;S7ZOL1
+!i10b 1
+!i111 0
+Ememprogvectores
+Z37 w1493199583
+R6
+R7
+R8
+R9
+R4
+Z38 8MemProgVectores.vhd
+Z39 FMemProgVectores.vhd
+l0
+L20
+VY10a^C9B6^X:U77EhRj_@1
+R12
+31
+R13
+Z40 !s108 1493199639.535000
+Z41 !s90 -reportprogress|300|-explicit|-93|MemProgVectores.vhd|
+Z42 !s107 MemProgVectores.vhd|
+R17
+R18
+!s100 DI^I=mU[6b26VL7]aIL;>0
+!i10b 1
+!i111 0
+Asimple
+R6
+R7
+R8
+R9
+DEx4 work 15 memprogvectores 0 22 Y10a^C9B6^X:U77EhRj_@1
+l29
+L27
+VD0J0A_RZWOHT[?1ocUGz`3
+R12
+31
+R13
+R40
+R41
+R42
+R17
+R18
+!s100 <<:<B>cAoA6<IQ@bIb:g^1
+!i10b 1
+!i111 0
+Emicromips
+Z43 w1493198314
+R6
+R7
+R8
+R9
+R4
+Z44 8MicroMIPS.vhd
+Z45 FMicroMIPS.vhd
+l0
+L18
+VECYhAjWc8=zN_?d`Fzl>H1
+R12
+31
+R13
+Z46 !s108 1493199639.475000
+Z47 !s90 -reportprogress|300|-explicit|-93|MicroMIPS.vhd|
+Z48 !s107 MicroMIPS.vhd|
+R17
+R18
+!s100 VIRT6>]QO_`XP4B1][;XM1
+!i10b 1
+!i111 0
+Amicromipsarc
+R6
+R7
+R8
+R9
+DEx4 work 9 micromips 0 22 ECYhAjWc8=zN_?d`Fzl>H1
+l90
+L30
+VL48<BnM36FK6=gR30P0FT3
+R12
+31
+R13
+R46
+R47
+R48
+R17
+R18
+!s100 [zETR8Y`@WmiDQR0DW0Qd3
+!i10b 1
+!i111 0
+Emicromipstb
+R19
+R7
+R6
+R8
+R9
+R4
+Z49 8MicroMIPSTb.vhd
+Z50 FMicroMIPSTb.vhd
+l0
+L20
+V3?TCN2QQ;I;kRW6jh4LYU0
+R12
+31
+R1
+Z51 !s108 1493198326.162000
+Z52 !s90 -reportprogress|300|-explicit|-93|MicroMIPSTb.vhd|
+Z53 !s107 MicroMIPSTb.vhd|
+R17
+R18
+!s100 5hH]_VY>HEnG=:YY9CB4i0
+!i10b 1
+!i111 0
+Atest
+R7
+R6
+R8
+R9
+DEx4 work 11 micromipstb 0 22 3?TCN2QQ;I;kRW6jh4LYU0
+l78
+L23
+Ve`]i?N5f;4b9UmEfCXbYT1
+R12
+31
+R1
+R51
+R52
+R53
+R17
+R18
+!s100 i4]dZGU_8X:aBT?cne5J^1
+!i10b 1
+!i111 0
+Emicromipsvectorestb
+R19
+R7
+R6
+R8
+R9
+R4
+Z54 8MicroMIPSVectoresTb.vhd
+Z55 FMicroMIPSVectoresTb.vhd
+l0
+L21
+V4DZ6o:VQKBg4GJf=YA5_Y0
+R12
+31
+R13
+Z56 !s108 1493199639.701000
+Z57 !s90 -reportprogress|300|-explicit|-93|MicroMIPSVectoresTb.vhd|
+Z58 !s107 MicroMIPSVectoresTb.vhd|
+R17
+R18
+!s100 :zT<fj<ecNE8=fJkEU?6I1
+!i10b 1
+!i111 0
+Atest
+R7
+R6
+R8
+R9
+DEx4 work 19 micromipsvectorestb 0 22 4DZ6o:VQKBg4GJf=YA5_Y0
+l79
+L24
+Vmf8IWJ1bD67]Yk5SJ?>O91
+R12
+31
+R13
+R56
+R57
+R58
+R17
+R18
+!s100 b6MGKW3dX6QDSJEWXM??n0
+!i10b 1
+!i111 0
+Epc
+Z59 w1493195652
+R6
+R7
+R8
+R9
+R4
+Z60 8PC.vhd
+Z61 FPC.vhd
+l0
+L18
+V7NiT9oo;?<ngTD@?zDl9f2
+R12
+31
+R13
+Z62 !s108 1493199639.183000
+Z63 !s90 -reportprogress|300|-explicit|-93|PC.vhd|
+Z64 !s107 PC.vhd|
+R17
+R18
+!s100 7d=P0AWXGnK21HAdN1JJg3
+!i10b 1
+!i111 0
+Apcarc
+R6
+R7
+R8
+R9
+DEx4 work 2 pc 0 22 7NiT9oo;?<ngTD@?zDl9f2
+l26
+L25
+VMlc`e_16X0QzT5LgadeQ<1
+R12
+31
+R13
+R62
+R63
+R64
+R17
+R18
+!s100 =lha<feKXbHc:0@`BcnMW2
+!i10b 1
+!i111 0
+Eregsmips
+Z65 w1489514772
+R7
+R6
+R8
+R9
+R4
+Z66 8RegsMIPS.vhd
+Z67 FRegsMIPS.vhd
+l0
+L19
+Vk8O1H0WmQAeTIUHl41bCE2
+R12
+31
+Z68 !s110 1493199638
+Z69 !s108 1493199638.960000
+Z70 !s90 -reportprogress|300|-explicit|-93|RegsMIPS.vhd|
+Z71 !s107 RegsMIPS.vhd|
+R17
+R18
+!s100 9zEa@L:Q:=WehC3g_7mmD1
+!i10b 1
+!i111 0
+Apractica
+R7
+R6
+R8
+R9
+DEx4 work 8 regsmips 0 22 k8O1H0WmQAeTIUHl41bCE2
+l47
+L32
+V@LWd]0Nj:PS7g6BQ4Dk6Q0
+R12
+31
+R69
+R70
+R71
+R17
+R18
+R13
+!s100 GcPPWLM:;f@MT`hnD1X343
+!i10b 1
+!i111 0
+Eunidadcontrol
+Z72 w1491381600
+R6
+R7
+R8
+R9
+R4
+Z73 8UnidadControl.vhd
+Z74 FUnidadControl.vhd
+l0
+L20
+VL^MLGji<Rf;2:8189j1B62
+R12
+31
+R68
+Z75 !s108 1493199637.858000
+Z76 !s90 -reportprogress|300|-explicit|-93|UnidadControl.vhd|
+Z77 !s107 UnidadControl.vhd|
+R17
+R18
+!s100 _IV]Q1<jG]f]^=S9VU5QT0
+!i10b 1
+!i111 0
+Acontrol
+R6
+R7
+R8
+R9
+DEx4 work 13 unidadcontrol 0 22 L^MLGji<Rf;2:8189j1B62
+l45
+L44
+VAVB6W319bZ:h0gAOW?AU:0
+R12
+31
+R68
+R75
+R76
+R77
+R17
+R18
+!s100 Xzn]1TXXFBY3;92Hho7B21
+!i10b 1
+!i111 0

@@ -1,0 +1,55 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/Practica5/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to D:/Practica5/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Practica5/ALUMIPS.vhd" in Library work.
+Architecture aluarc of Entity alumips is up to date.
+Compiling vhdl file "D:/Practica5/RegsMIPS.vhd" in Library work.
+Architecture practica of Entity regsmips is up to date.
+Compiling vhdl file "D:/Practica5/UnidadControl.vhd" in Library work.
+Architecture control of Entity unidadcontrol is up to date.
+Compiling vhdl file "D:/Practica5/PC.vhd" in Library work.
+Entity <pc> compiled.
+Entity <pc> (Architecture <pcarc>) compiled.
+Compiling vhdl file "D:/Practica5/MicroMIPS.vhd" in Library work.
+Entity <micromips> compiled.
+Entity <micromips> (Architecture <micromipsarc>) compiled.
+Compiling vhdl file "G:/PracticasEstructuras/EnunciadoP5/MemProgMIPS.vhd" in Library work.
+Entity <MemProgMIPS> compiled.
+Entity <MemProgMIPS> (Architecture <Simple>) compiled.
+Compiling vhdl file "G:/PracticasEstructuras/EnunciadoP5/MemDataMIPS.vhd" in Library work.
+Entity <MemDataMIPS> compiled.
+Entity <MemDataMIPS> (Architecture <Simple>) compiled.
+Compiling vhdl file "D:/Practica5/MicroMIPSTb.vhd" in Library work.
+ERROR:HDLParsers:1015 - "D:/Practica5/MicroMIPSTb.vhd" Line 116. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "D:/Practica5/MicroMIPSTb.vhd" Line 118. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "D:/Practica5/MicroMIPSTb.vhd" Line 130. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "D:/Practica5/MicroMIPSTb.vhd" Line 132. Wait for statement unsupported.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> 
+
+Total memory usage is 214968 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
