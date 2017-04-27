@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------
--- Fichero: UnidadControl.vhd
--- Descripción: Unidad de control del procesador
+-- Fichero: PC.vhd
+-- Descripción: Modulo del PC de MicroMIPS.vhd
 -- Fecha última modificación: 2017-04-05
 
 -- Autores: Javier Delgado del Cerro y Javier López Cano
@@ -8,7 +8,7 @@
 -- Grupo de Prácticas: 2101
 -- Grupo de Teoría: 210
 -- Práctica: 5
--- Ejercicio: 2
+-- Ejercicio: 3
 ----------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;

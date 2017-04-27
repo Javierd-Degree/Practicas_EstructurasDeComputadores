@@ -1,14 +1,14 @@
 ----------------------------------------------------------------------
--- Fichero: UnidadControl.vhd
--- Descripción: Unidad de control del procesador
--- Fecha última modificación: 2017-04-05
+-- Fichero: MicroMIPS.vhd
+-- Descripción: Microprocesador MIPS
+-- Fecha última modificación: 2017-04-26
 
 -- Autores: Javier Delgado del Cerro y Javier López Cano
 -- Asignatura: EC 1º grado
 -- Grupo de Prácticas: 2101
 -- Grupo de Teoría: 210
 -- Práctica: 5
--- Ejercicio: 2
+-- Ejercicio: 3
 ----------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
@@ -28,6 +28,7 @@ entity MicroMips is port(
 end MicroMips;
 
 architecture MicroMIPSArc of MicroMIPS is
+--Declaramos las señales necesarias para unir los componentes y las auxiliares para simplificar el diseño.
 signal MPDExtSigno, Op1, Op2, Res, Wd3, Rd1, Rd2, D, Addr : std_logic_vector(31 downto 0);
 signal PCBranch, PCBranchAux, PCJump, NextAddress : std_logic_vector(31 downto 0);
 signal OPCode, Funct : std_logic_vector (5 downto 0);
@@ -35,6 +36,7 @@ signal A1, A2, A3 : std_logic_vector(4  downto 0);
 signal ALUControl : std_logic_vector (2 downto 0);
 signal Z, We3, Jump, regToPc, Branch, PCToReg, MemToReg, MemWrite, ALUSrc, ExtCero, RegWrite, RegDest, PCSrc : std_logic;
 
+--Instanciamos lo distintos componentes que el micro va a usar
 component AluMIPS is port(
 	Op1, Op2: in std_logic_vector(31 downto 0);
 	ALUControl: in std_logic_vector(2 downto 0);
@@ -89,6 +91,7 @@ end component;
 
 begin
 
+--Mapeamos todos los componentes
 AluMipsPM : AluMIPS port map(
 	Op1 => Op1,
 	Op2 => Op2,
@@ -133,17 +136,20 @@ PCPM : PC port map(
 	Addr => Addr
 );
 
+--Capturamos el OPCode y Funct de todos los componentes y los pasamos a la Unidad de Control
 OPCode <= MemProgData(31 downto 26);
 Funct <= MemProgData(5 downto 0);
 
 --Extensor Signo
 MPDExtSigno(31 downto 16) <= (others =>  MemProgData(15));
 MPDExtSigno(15 downto 0) <= MemProgData(15 downto 0);
-
+--Entradas de la memoria de datos
 MemDataAddr <= Res;
 MemDataDataWrite <= Rd2;
 MemDataWE <= MemWrite;
+--Capturamos la instruccion
 MemProgAddr <=Addr;
+--Entradas del banco de regitros
 We3 <= RegWrite;
 A1 <= MemProgData(25 downto 21);
 A2 <= MemProgData(20 downto 16);
