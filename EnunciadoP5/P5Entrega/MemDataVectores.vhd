@@ -1,14 +1,15 @@
 ----------------------------------------------------------------------
--- Fichero: MemDataPlantilla.vhd
+-- Fichero: MemDataVectores.vhd
 -- Descripción: datos del .data de vectores.asm en código máquina
--- Fecha última modificación: 2017-03-29
+-- Fecha última modificación: 2017-04-26
+-- Cambiamos el nombre del modulo a MemDataVectores
 
 -- Autores: Javier Delgado del Cerro y Javier López Cano
 -- Asignatura: EC 1º grado
 -- Grupo de Prácticas: 2101
 -- Grupo de Teoría: 210
 -- Práctica: 5
--- Ejercicio: 2
+-- Ejercicio: 2 y 3
 ----------------------------------------------------------------------
 
 
