@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/javix/Documents/Practicas EC/PracticasEstructuras/Practica3/ALUMIPSTb_isim_beh.exe" -prj "C:/Users/javix/Documents/Practicas EC/PracticasEstructuras/Practica3/ALUMIPSTb_beh.prj" "work.ALUMIPSTb" 

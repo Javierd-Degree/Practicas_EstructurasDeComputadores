@@ -1,0 +1,2 @@
+vhdl work "Regs.vhd"
+vhdl work "../RegsTb.vhd"

@@ -1,0 +1,2 @@
+vhdl work "ALUMIPS.vhd"
+vhdl work "../ALUMIPSTb.vhd"
